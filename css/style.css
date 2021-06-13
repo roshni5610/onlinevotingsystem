@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: border-box;
+    scroll-behavior: smooth;
+    text-align:center;
+
+}
+.navbar-brand{
+    font-size: x-large;
+
+}
+
+.navbar{
+    background-image: linear-gradient(to right,navy,#aaa);
+    padding: 20px;
+    position: sticky;
+    color:white;
+    font-size:large;
+    
+}
+.nav__li{
+    padding: 15px;
+    color:white;
+}
+.nav__a{
+    text-decoration: none;
+    color:white;
+}
+    
+.nav__a:hover{
+    text-decoration: none;
+    color: white;
+}
+.votingbtn{
+    padding: 12px 24px;
+    background-image: linear-gradient(to right,navy,#aaa);
+    color:white;
+    border-radius: 6px;
+    border:2px white solid;
+    transition: transform 250ms ease-in-out;
+    margin-left: auto;
+
+
+}
+.votingbtn:hover{
+    transform:scale(1.1);
+
+}
+.votingbtn.active{
+    transform:scale(0.9);
+}
+#banner{
+    background-image: linear-gradient(to right,navy,#aaa);
+    color:white;
+    padding-top: 5%;
+
+}
+.bannerh1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    
+}
+.contact-form-home{
+    border:2px blue solid;
+    padding: 50px;
+    border-radius: 10px;
+}
+.submitbtn{
+    padding: 12px 24px;
+    background-image: linear-gradient(to right,navy,#aaa);
+    color:white;
+    border-radius: 6px;
+    border:2px white solid;
+    transition: transform 250ms ease-in-out;
+    margin-left: auto;
+
+
+}
+#p1{
+    color:oldlace;
+    font-size: x-large;
+
+}
